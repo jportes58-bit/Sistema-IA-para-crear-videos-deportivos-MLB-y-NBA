@@ -1,0 +1,14 @@
+{
+  "brand": "PORTES AI SPORTS",
+  "language": "es",
+  "target_seconds": 28,
+  "default_hashtags": [
+    "MLB",
+    "NBA",
+    "Deportes",
+    "SportsTok",
+    "PortesAISports"
+  ],
+  "minimum_publish_score": 65,
+  "require_manual_approval": true
+}

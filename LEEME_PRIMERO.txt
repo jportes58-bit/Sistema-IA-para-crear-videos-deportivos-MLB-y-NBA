@@ -1,0 +1,9 @@
+PORTES AI SPORTS 1.0
+
+1) Descomprima el archivo.
+2) Instale Python y FFmpeg.
+3) Ejecute INSTALAR_WINDOWS.bat.
+4) Ejecute INICIAR_WINDOWS.bat.
+5) Revise el video demo en outputs.
+
+TikTok se vinculará después mediante OAuth oficial; no entregue su contraseña.
