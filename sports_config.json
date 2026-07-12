@@ -1,0 +1,37 @@
+{
+  "MLB": {
+    "enabled": true,
+    "provider": "mlb_public",
+    "icon": "⚾"
+  },
+  "NBA": {
+    "enabled": true,
+    "provider": "nba_public",
+    "icon": "🏀"
+  },
+  "LIDOM": {
+    "enabled": false,
+    "provider": "manual",
+    "icon": "⚾"
+  },
+  "NFL": {
+    "enabled": false,
+    "provider": "manual",
+    "icon": "🏈"
+  },
+  "FUTBOL": {
+    "enabled": false,
+    "provider": "manual",
+    "icon": "⚽"
+  },
+  "UFC": {
+    "enabled": false,
+    "provider": "manual",
+    "icon": "🥊"
+  },
+  "TENIS": {
+    "enabled": false,
+    "provider": "manual",
+    "icon": "🎾"
+  }
+}

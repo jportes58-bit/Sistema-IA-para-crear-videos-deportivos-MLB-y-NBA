@@ -1,0 +1,8 @@
+1. Descomprime este ZIP.
+2. En GitHub Desktop: Repository > Show in Explorer.
+3. Borra el contenido anterior, excepto la carpeta oculta .git.
+4. Pega dentro todo el contenido de PORTES_AI_SPORTS_PRO.
+5. Regresa a GitHub Desktop.
+6. Escribe: PORTES AI SPORTS PRO 2.0.
+7. Pulsa Commit to main.
+8. Pulsa Push origin.
