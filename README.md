@@ -1,8 +1,37 @@
-# PORTES AI SPORTS PRO 2.0
+# PORTES AI SPORTS PRO 3.0
 
-Plataforma modular para MLB, NBA, LIDOM, NFL, fútbol, UFC y tenis.
+Aplicación modular en Streamlit para crear contenido deportivo vertical.
 
-- MLB y NBA están activos con fuentes públicas.
-- LIDOM, NFL, fútbol, UFC y tenis están preparados y usan entrada manual hasta conectar APIs.
-- Cada módulo incluye puntuación, guion y video vertical.
-- TikTok quedará conectado posteriormente mediante OAuth oficial.
+## Deportes incluidos
+
+- MLB
+- NBA
+- LIDOM
+- NFL
+- Fútbol
+- UFC
+- Tenis
+
+MLB y NBA consultan fuentes públicas. Los demás deportes funcionan con entrada
+manual hasta conectar sus APIs.
+
+## Funciones
+
+- Selección por deporte.
+- Consulta de oportunidades MLB/NBA.
+- Entrada manual para cualquier deporte.
+- Puntuación de interés.
+- Generación de guiones.
+- Video vertical MP4.
+- Descarga del video.
+- Preparación para OAuth de TikTok.
+
+## Publicación en Streamlit
+
+El archivo principal es `app.py`. Las dependencias están en `requirements.txt`.
+
+## TikTok
+
+No compartas tu contraseña. La vinculación se hará mediante OAuth y la API
+oficial de TikTok. La publicación automática depende de los permisos y revisión
+aplicables.

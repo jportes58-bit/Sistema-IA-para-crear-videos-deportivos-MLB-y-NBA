@@ -1,0 +1,15 @@
+INSTRUCCIONES EXACTAS
+
+1. Descomprime PORTES_AI_SPORTS_PRO_FINAL.zip.
+2. Abre GitHub Desktop.
+3. Pulsa Repository > Show in Explorer.
+4. Borra todos los archivos visibles del proyecto anterior.
+   NO borres la carpeta oculta .git.
+5. Entra en la carpeta PORTES_AI_SPORTS_PRO_FINAL.
+6. Presiona Ctrl + A y luego Ctrl + C.
+7. Regresa a la carpeta del repositorio y presiona Ctrl + V.
+8. Regresa a GitHub Desktop.
+9. En Summary escribe: PORTES AI SPORTS PRO 3.0
+10. Pulsa Commit to main.
+11. Pulsa Push origin.
+12. Cuando vuelva a decir Fetch origin, abre View on GitHub.

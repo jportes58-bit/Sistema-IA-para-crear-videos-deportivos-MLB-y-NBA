@@ -1,9 +1,12 @@
-from portes_sports.mlb import get_schedule
-from portes_sports.nba import get_scoreboard
+from __future__ import annotations
+from . import mlb, nba, manual
 
-def fetch_sport(sport: str, day: str):
-    if sport == "MLB":
-        return get_schedule(day)
-    if sport == "NBA":
-        return get_scoreboard(day)
-    return []
+PROVIDERS = {
+    "mlb_public": mlb.fetch,
+    "nba_public": nba.fetch,
+    "manual": manual.fetch,
+}
+
+def fetch_sport(provider_name: str, day: str | None = None) -> list[dict]:
+    provider = PROVIDERS.get(provider_name, manual.fetch)
+    return provider(day)

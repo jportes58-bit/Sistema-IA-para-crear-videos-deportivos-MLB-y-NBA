@@ -10,27 +10,27 @@
     "icon": "🏀"
   },
   "LIDOM": {
-    "enabled": false,
+    "enabled": true,
     "provider": "manual",
     "icon": "⚾"
   },
   "NFL": {
-    "enabled": false,
+    "enabled": true,
     "provider": "manual",
     "icon": "🏈"
   },
   "FUTBOL": {
-    "enabled": false,
+    "enabled": true,
     "provider": "manual",
     "icon": "⚽"
   },
   "UFC": {
-    "enabled": false,
+    "enabled": true,
     "provider": "manual",
     "icon": "🥊"
   },
   "TENIS": {
-    "enabled": false,
+    "enabled": true,
     "provider": "manual",
     "icon": "🎾"
   }
