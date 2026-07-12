@@ -1,0 +1,15 @@
+sport,team,recent_form,attack_rating,defense_rating,availability,elo
+NBA,Equipo NBA A,0.72,82,78,0.95,1580
+NBA,Equipo NBA B,0.58,77,74,0.88,1510
+MLB,Equipo MLB A,0.65,76,80,0.92,1560
+MLB,Equipo MLB B,0.52,70,72,0.9,1490
+LIDOM,Equipo LIDOM A,0.68,75,76,0.96,1540
+LIDOM,Equipo LIDOM B,0.54,71,70,0.91,1480
+NFL,Equipo NFL A,0.7,83,79,0.93,1570
+NFL,Equipo NFL B,0.55,75,72,0.87,1495
+FUTBOL,Club A,0.73,81,82,0.94,1600
+FUTBOL,Club B,0.61,76,74,0.91,1525
+UFC,Peleador A,0.76,85,78,0.98,1620
+UFC,Peleador B,0.63,79,75,0.95,1540
+TENIS,Tenista A,0.74,84,80,0.97,1610
+TENIS,Tenista B,0.6,77,76,0.94,1530

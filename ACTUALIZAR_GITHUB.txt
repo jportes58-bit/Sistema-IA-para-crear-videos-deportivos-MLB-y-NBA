@@ -1,0 +1,7 @@
+1. Descomprime este ZIP.
+2. GitHub Desktop > Repository > Show in Explorer.
+3. Borra los archivos visibles anteriores sin borrar .git.
+4. Copia todo el contenido de PORTES_AI_SPORTS_PRO_4.
+5. Commit: PORTES AI SPORTS PRO 4.0
+6. Push origin.
+7. Streamlit se actualizará automáticamente.

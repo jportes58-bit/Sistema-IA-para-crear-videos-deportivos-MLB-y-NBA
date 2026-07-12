@@ -1,27 +1,10 @@
-from __future__ import annotations
 import requests
-
-URL = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
-
-def fetch(day: str | None = None) -> list[dict]:
-    headers = {
-        "User-Agent": "Mozilla/5.0",
-        "Referer": "https://www.nba.com/",
-    }
-    response = requests.get(URL, headers=headers, timeout=20)
-    response.raise_for_status()
-
-    stories: list[dict] = []
-    for game in response.json().get("scoreboard", {}).get("games", []):
-        away = game.get("awayTeam", {})
-        home = game.get("homeTeam", {})
-        stories.append({
-            "sport": "NBA",
-            "headline": f'{away.get("teamName", "Visitante")} vs {home.get("teamName", "Local")}',
-            "summary": (
-                f'Estado: {game.get("gameStatusText", "Sin información")}. '
-                f'Marcador: {away.get("score", "-")} - {home.get("score", "-")}.'
-            ),
-            "source": "NBA Public Scoreboard",
-        })
-    return stories
+URL="https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+def games(day):
+    r=requests.get(URL,headers={"User-Agent":"Mozilla/5.0","Referer":"https://www.nba.com/"},timeout=20);r.raise_for_status()
+    out=[]
+    for g in r.json().get("scoreboard",{}).get("games",[]):
+        a,h=g.get("awayTeam",{}),g.get("homeTeam",{})
+        out.append({"sport":"NBA","date":g.get("gameTimeUTC",day),"away":a.get("teamName","Visitante"),"home":h.get("teamName","Local"),"away_score":a.get("score"),"home_score":h.get("score"),"status":g.get("gameStatusText",""),"source":"NBA Public Scoreboard"})
+    return out
+def teams(): return []

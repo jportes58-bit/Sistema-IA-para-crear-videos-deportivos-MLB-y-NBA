@@ -1,0 +1,6 @@
+sport,date,away,home,away_score,home_score,status,source
+LIDOM,2026-10-20,Equipo LIDOM B,Equipo LIDOM A,,,Programado,Dataset
+NFL,2026-09-10,Equipo NFL B,Equipo NFL A,,,Programado,Dataset
+FUTBOL,2026-07-14,Club B,Club A,,,Programado,Dataset
+UFC,2026-08-01,Peleador B,Peleador A,,,Programado,Dataset
+TENIS,2026-07-20,Tenista B,Tenista A,,,Programado,Dataset

@@ -1,12 +1,10 @@
-from __future__ import annotations
-from . import mlb, nba, manual
-
-PROVIDERS = {
-    "mlb_public": mlb.fetch,
-    "nba_public": nba.fetch,
-    "manual": manual.fetch,
-}
-
-def fetch_sport(provider_name: str, day: str | None = None) -> list[dict]:
-    provider = PROVIDERS.get(provider_name, manual.fetch)
-    return provider(day)
+from . import mlb,nba,dataset
+def get_games(sport,provider,day):
+    if provider=="mlb_public": return mlb.games(day)
+    if provider=="nba_public": return nba.games(day)
+    return dataset.games(sport,day)
+def get_teams(sport,provider):
+    if provider=="mlb_public": return mlb.teams()
+    if provider=="nba_public": return nba.teams()
+    return dataset.teams(sport)
+def get_players(sport,provider): return dataset.players(sport)

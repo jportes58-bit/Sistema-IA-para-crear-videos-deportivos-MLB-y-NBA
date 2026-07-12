@@ -1,0 +1,8 @@
+sport,player,team,position,stat_1,stat_2,stat_3,availability
+NBA,Jugador NBA A,Equipo NBA A,Base,25.4,7.2,8.1,0.92
+MLB,Jugador MLB A,Equipo MLB A,Bateador,0.302,28,85,0.95
+LIDOM,Jugador LIDOM A,Equipo LIDOM A,Bateador,0.289,8,31,0.94
+NFL,Jugador NFL A,Equipo NFL A,QB,298,2.1,0.7,0.91
+FUTBOL,Jugador Fútbol A,Club A,Delantero,0.72,12,5,0.93
+UFC,Peleador A,Peleador A,Peso ligero,0.78,11,3,0.97
+TENIS,Tenista A,Tenista A,Individual,0.74,82,14,0.96
